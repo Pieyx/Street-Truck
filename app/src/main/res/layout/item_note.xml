@@ -21,9 +21,17 @@
             android:id="@+id/txNoteTitle"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:text="Lorem_ipsum"
             android:padding="20dp"
-            android:textSize="20sp"
-            android:textColor="@color/black"/>
+            android:text="Lorem_ipsum"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/ivNoteDelete"
+            android:layout_width="60dp"
+            android:layout_height="55dp"
+            android:layout_gravity="right"
+            android:paddingTop="25dp"
+            android:src="@drawable/ic_delete" />
     </androidx.cardview.widget.CardView>
 </androidx.constraintlayout.widget.ConstraintLayout>

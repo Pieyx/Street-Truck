@@ -26,6 +26,7 @@
             android:textColor="@color/black"
             android:textSize="20sp" />
 
+
         <ImageView
             android:id="@+id/ivNoteDelete"
             android:layout_width="60dp"

@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.streettruck">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -17,6 +18,9 @@
             android:name=".notesapp.ui.NotesListActivity"
             android:exported="false" />
         <activity
+            android:name=".SplashScreen"
+            android:exported="false" />
+        <activity
             android:name=".authsystem.RegisterationActivity"
             android:exported="false" />
         <activity
@@ -26,7 +30,7 @@
             android:name=".MainActivity"
             android:exported="false" />
         <activity
-            android:name=".SplashScreen"
+            android:name=".getpostsapp.ui.PostListActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

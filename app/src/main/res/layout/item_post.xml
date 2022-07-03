@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#BDBDBD"
+    android:padding="@dimen/_10sdp">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        app:cardCornerRadius="@dimen/_9sdp"
+        android:layout_height="wrap_content">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="@dimen/_10sdp">
+
+            <TextView
+                android:id="@+id/txPostTitle"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="20dp"
+                android:text="Lorem_ipsum"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                tools:layout_editor_absoluteX="-18dp"
+                tools:layout_editor_absoluteY="-10dp" />
+
+            <TextView
+                android:id="@+id/txPostBody"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="72dp"
+                android:padding="20dp"
+                android:text="_ipsum"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="@+id/txPostTitle"
+                app:layout_constraintTop_toTopOf="@+id/txPostTitle" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+</FrameLayout>
